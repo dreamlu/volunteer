@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*左侧动的图*/
+.header2{width: 920px;height:350px;padding:20px 20px;background-color: #e2dfd7;}
+.tupianqiehuan img{width: 850px;height: 390px;}
+.tupianqiehuan{overflow: hidden;width: 850px; height: 390px;}
+.header2>img{margin-top: 180px;}
+
+
+/*最新活动*/
+.newActivity{min-height: 358px;margin-top: 50px;}
+.title{height: 52px;}
+.more{	width: 710px;border-bottom: #36363b solid 2px;margin-top: 17px;text-indent: 630px;
+	}
+.more a{color: #36363B;font-size: 14px;}
+.more a:hover{color: #F3C14D;}
+.activity_1{width: 217px;height: 300px;box-shadow: 2px 2px 1px #aba79d;margin-bottom: 20px;}
+.activity_2{width: 217px;height: 268px;box-shadow: 2px 2px 1px #aba79d;}
+.margin_r{margin-right: 14px;}
+.tubiao{width: 89px;height: 27px;padding-top:10px;float: right;margin-right: -1px;}
+.like{margin: 0 6px;}
+
+.activity_1 h3{text-align: center;margin-bottom: 10px;margin-top: 5px;}
+.activity_1 h3 a{color: #3B372C;}
+.activity_1 p{margin-left: 18px;margin-top: 5px;color: #3B372C;}
+
+
+/*最热项目*/
+.hotItem{height: 361px;}
+.activity_2 >img{margin-top: 13px;margin-left: 183px;}
+.activity_2 p{text-align: center;margin-bottom: 10px;margin-top: 10px;font-weight: bolder;}
+.activity_2 p a{color: #3B372C;}
+
+/*志愿详情页*/
+.xinxm{float:left;
+       weight:545px;height:280px;
+	   border:3px solid #36363b;
+	   padding:10px;
+	   margin-top:15px;}
+.xinxi{
+       weight:300px;height:280px;
+       padding-top:60px;
+	   padding-left:30px;
+	   margin-left:30px;
+	  }

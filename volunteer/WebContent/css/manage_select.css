@@ -1,0 +1,58 @@
+.guanli_kong{width:600px;height: 3px;background-color: #F6B71F;}
+.title1{font-size: 18px;font-weight: 700;}
+.title{margin: 20px 0 20px 0;}
+
+/*biaoge*/
+#output1 >table{width: 95%;}
+#output1 .td1{width: 20%;}
+#output1 .td2{width: 10%;}
+#output1 .td3{width: 10%;}
+#output1 .td4{width: 10%;}
+#output1 .td5{width: 10%;}
+#output1 .td6{width:6%;}
+#output1 .td7{width: 12%;}
+#output1 .td8{width: 15%;}
+#output1 caption{text-align: left;font: "Î¢ÈíÑÅºÚ";font-size: 17px;background:#cececc;border-bottom: 2px solid #fff;}
+#output2 caption{text-align: left;font: "Î¢ÈíÑÅºÚ";font-size: 17px;background:#cececc;border-bottom: 2px solid #fff;}
+
+
+/*ad_sub*/
+.ad_sub{width:25px;height: 20px;margin-right: 5px;padding-left: 10px;}
+.ad_sub .sub{display:none;margin-top:9px;margin-left: 2px;}
+.ad_sub .ad{display:block/*none*/;margin-top: 6px;}
+
+
+
+#output2 caption{text-align: left;font: "Î¢ÈíÑÅºÚ";font-size: 17px;}
+#output2 >table{width: 95%;}
+#output2 .td1{width: 15%;}
+#output2 .td2{width: 8%;}
+#output2 .td3{width: 8%;}
+#output2 .td4{width: 8%;}
+#output2 .td5{width: 8%;}
+#output2 .td6{width: 6%;}
+#output2 .td7{width: 13%;}
+#output2 .td8{width: 15%;}
+#output1 .xuanze{background:#f4f3f0;}
+#output2 .xuanze2{background:#f4f3f0;}
+/*#output1 .xuanze{display: none;}
+*/
+.show{width: 100%;display:none}
+
+
+/*°´Å¥*/
+#guanli_right3 button{padding: 0 10px;background: #36363b;color: #F4B826;height: 35px;border-radius: 10px;margin-top:20px;margin-left: 10px;margin-bottom:20px;}
+#increase{margin-right: 20px;}
+
+#tijiao{width: 94%;}
+
+
+.check{text-align:center;width:60px;}
+/*Ö¾Ô¸ÕßÉ¸Ñ¡css*/
+#guanli_right3{width:83%;min-height:500px;height:auto;background: #E2DFD7;margin-left:150px;margin-top:15px;position: absolute;border-radius: 10px;
+              padding: 30px 0 30px 50px;}
+              
+
+#daochu1{margin-right:20px;}
+#zhaomu{margin-right:65px;}
+#daochu2{margin-right:65px;}

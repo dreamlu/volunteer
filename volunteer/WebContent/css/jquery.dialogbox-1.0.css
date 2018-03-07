@@ -1,0 +1,89 @@
+.dialogbox-back {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    display: none;
+}
+.dialogbox-main {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    max-width: 320px;
+    min-width: 170px;
+    padding: 15px;
+    position: relative;
+    margin: 10% auto 0;
+    background-color: rgb(255,255,255);
+    border: solid 0 rgb(90,90,90);
+    overflow: auto;
+    display: none;
+}
+.dialogbox-close {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    padding-left: 1px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    transition: 400ms;
+    background-color: rgb(240,240,240);
+}
+.dialogbox-close:hover {
+    background-color: rgba(192,57,43,0.7);
+}
+.dialogbox-title {
+    font-family: Arial, Gadget, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(90,90,90);
+    padding-bottom: 2px;
+    overflow: auto;
+    border-bottom: solid 1px rgb(230,230,230);
+}
+.dialogbox-message {
+    color: rgb(60,60,60);
+    padding: 10px 0;
+    text-align: justify;
+}
+.dialogbox-prompt {
+    padding: 5px 0;
+    display: none;
+}
+.dialogbox-prompt input,select {
+    color: rgb(60,60,60);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 3%;
+    width: 93%;
+    border: solid 1px rgb(210,210,210);
+}
+.dialogbox-button-bar {
+    margin-top: 10px;
+    text-align: center;
+    direction: ltr;
+}
+.dialogbox-btn {
+    display: inline-block;
+    border: solid 1px rgb(230,230,230);
+    color: rgb(60,60,60);
+    width: 70px;
+    padding: 5px;
+    margin: 0 2px 3px;
+    background-color: rgb(250,250,250);
+    cursor: pointer;
+    transition: 300ms;
+}
+.dialogbox-btn:hover {
+    background-color: rgb(240,240,240);
+}

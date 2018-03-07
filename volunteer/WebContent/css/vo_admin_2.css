@@ -1,0 +1,131 @@
+#banner{background: url(../img/banner.jpg) repeat-x;width:100%;height: 65px;}
+#guanli_left{width:12%;margin-top: 86px;}
+#guanli_left ul li{height: 40px;width:140px;border-radius:10px 0 0 10px;margin-left: 17px;line-height: 40px;text-align: center;}
+#guanli_left ul li a{color: #36332b;}
+.navstyle {background-color: #E2DFD7;}
+#guanli_right{width:83%;min-height: 600px;background: #E2DFD7;margin-left:150px;margin-top:15px;position: absolute;border-radius: 10px;
+              padding: 30px 0 30px 50px;}
+
+table{width: 1050px;font-size: 14px;}
+tr{height: 40px;border-top: 1px solid #E2DFD7;}
+tr:nth-child(odd){background: #fafdb4;}
+tr:nth-child(2n){background: #fefefd;}
+tr>td{text-align: center;}
+tr>td:first-child{text-indent: 10px;text-align: left;width:8%; }
+tr>td:nth-child(2){width:5%;}
+tr>td:nth-child(3){width:10%;}
+tr>td:last-child{width: 3%;}
+tr>td:nth-child(4){width: 15%;}
+tr>td:nth-child(5){width: 10%;}
+tr>td:nth-child(6){width: 15%;}
+
+#guanli_right >span:nth-child(1){margin-left: 210px;}
+#guanli_right >span{font-size: 16px;font-weight: 700;margin:5px 40px;}
+#guanli_right .span2{margin-left: 213px;}
+#guanli_right .span3{margin-left:57px;}
+#guanli_right .span4{margin-left: 30px;}
+
+
+/*閸愬懎顔愰崣鎴濈妞わ拷*/
+.content_header{width:375px ;height: 42px;}
+.content_header>button{border-radius: 10px; font-weight: 700;font-size: 15px;}
+#button1{width:84px ;height:34px ;background: #f4b826;color: #36332B;}
+#button2{width:99px ;height:34px ;background: #36363b;color: #F4B826;}
+
+#content{width:1080px ;height: ;padding: 10px 0 0 0;}
+textarea{width: 950px;height:280px ;margin-left: 40px;margin-top: 5px;text-indent: 10px;}
+#content form > span{font-size:18px;margin-right: 5px;}
+
+#content input{height: 23px;width:200px;margin-bottom: 20px;margin-right: 10px;text-indent: 10px;}
+#content  .input1{width: 500px;}
+#content .liulan{font-size: 15px;}
+#content .liulan a{color: #272822;}
+#guanli_right2{width:83%;background: #E2DFD7;margin-left:150px;margin-top:15px;position: absolute;border-radius: 10px;
+              padding: 30px 0 0 50px;}
+              
+#content form button{width:80px ;height:40px ;margin: 10px 10px;background:#36363b ;color: #f6b71f;border-radius: 10px;font-weight:700;font-size: 15px;}
+
+
+/*瀹告彃褰傜敮鍐ㄥ敶鐎圭銆冮弽锟�*/
+#content_table{width: 1050px;}
+#content_table>tr>td:first-child{width: 750px;}
+#content_table .t1{border-right: ;font-size: 16px;}
+#content_table .t2{color:#d7723e;width: 150px;}
+#content_table .t3{color:#264e63;width: 150px;}
+#content_table .t2 a{color:#d7723e;font-size: 16px;font-weight: 700;}
+#content_table .t3 a{color:#264e63;font-size: 16px;font-weight: 700;}
+
+/*濞茶濮╃�癸絼绱�*/
+#content_xuanchuan{width:1080px ;height: ;padding: 10px 0 0 0;padding-top:30px;}
+#content_xuanchuan form{margin-left: -60px;}
+#content_xuanchuan form > span{font-size:18px;margin-right: 5px;}
+#content_xuanchuan a{font-size:14px;color: #272822;}
+#content_xuanchuan textarea{width:900px;height: 500px;text-indent:20px;}
+#content_xuanchuan form button{width:80px ;height:40px ;margin: 10px 10px;background:#36363b ;color: #f6b71f;border-radius: 10px;font-weight:700;font-size: 15px;}
+#content_xuanchuan input{height: 23px;width:200px;margin-bottom: 20px;margin-right: 10px;text-indent: 10px;}
+#button3{width:84px;height:34px;background: #f8ae87;color: #36363b;}
+#content_xuanchuan{margin-left:78px;margin-top: -20px;}
+#content_xuanchuan form span:first-child{margin-right:40px;}
+#content_xuanchuan .no1{width: 500px;}
+
+/*閺�顖涘胶閹崵绮�*/
+#button4{background: #a8bcfb;width:84px;height:34px;}
+#button3 a{color: #36363b;}
+#button2 a{color: #F4B826;}
+#button1 a{color: #36363b;}
+#button4 a{color: #36363b;}
+
+
+
+
+
+
+/*閸愬懎顔愰崣鎴濈妞わ拷*/
+.content_header{width:375px ;height: 42px;}
+.content_header>button{border-radius: 10px; font-weight: 700;font-size: 15px;}
+#button1{width:84px ;height:34px ;background: #f4b826;color: #36332B;}
+#button2{width:99px ;height:34px ;background: #36363b;color: #F4B826;}
+
+#content{width:1080px ;height: ;padding: 10px 0 0 0;}
+textarea{width: 950px;height:280px ;margin-left: 40px;margin-top: 5px;text-indent: 10px;}
+#content form > span{font-size:18px;margin-right: 5px;}
+
+#content input{height: 23px;width:200px;margin-bottom: 20px;margin-right: 10px;text-indent: 10px;}
+#content  .input1{width: 500px;}
+#content .liulan{font-size: 15px;}
+#content .liulan a{color: #272822;}
+#guanli_right2{width:83%;background: #E2DFD7;margin-left:150px;margin-top:15px;position: absolute;border-radius: 10px;
+              padding: 30px 0 0 50px;}
+              
+#content form button{width:80px ;height:40px ;margin: 10px 10px;background:#36363b ;color: #f6b71f;border-radius: 10px;font-weight:700;font-size: 15px;}
+
+
+/*瀹告彃褰傜敮鍐ㄥ敶鐎圭銆冮弽锟�*/
+#content_table{width: 1050px;}
+#content_table>tr>td:first-child{width: 750px;}
+#content_table .t1{border-right: ;font-size: 16px;}
+#content_table .t2{color:#d7723e;width: 150px;}
+#content_table .t3{color:#264e63;width: 150px;}
+#content_table .t2 a{color:#d7723e;font-size: 16px;font-weight: 700;}
+#content_table .t3 a{color:#264e63;font-size: 16px;font-weight: 700;}
+
+/*濞茶濮╃�癸絼绱�*/
+#content_xuanchuan{width:1080px ;height: ;padding: 10px 0 0 0;padding-top:30px;}
+#content_xuanchuan form{margin-left: -60px;}
+#content_xuanchuan form > span{font-size:18px;margin-right: 5px;}
+#content_xuanchuan a{font-size:14px;color: #272822;}
+#content_xuanchuan textarea{width:900px;height: 500px;text-indent:20px;}
+#content_xuanchuan form button{width:80px ;height:40px ;margin: 10px 10px;background:#36363b ;color: #f6b71f;border-radius: 10px;font-weight:700;font-size: 15px;}
+#content_xuanchuan input{height: 23px;width:200px;margin-bottom: 20px;margin-right: 10px;text-indent: 10px;}
+#button3{width:84px;height:34px;background: #f8ae87;color: #36363b;}
+#content_xuanchuan{margin-left:78px;margin-top: -20px;}
+#content_xuanchuan form span:first-child{margin-right:40px;}
+#content_xuanchuan .no1{width: 500px;}
+
+/*閺�顖涘胶閹崵绮�*/
+#button4{background: #a8bcfb;width:84px;height:34px;}
+#button3 a{color: #36363b;}
+#button2 a{color: #F4B826;}
+#button1 a{color: #36363b;}
+#button4 a{color: #36363b;}
+

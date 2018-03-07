@@ -1,0 +1,49 @@
+/*reset 使用插件可忽略*/
+*{
+    vertical-align: baselinebaseline;    
+    font-family: inherit;    
+    font-style: inherit;    
+    font-size: 100%;    
+    border: none;    
+    padding: 0;    
+    margin: 0; 
+}
+body {width:100%; font: 12px/1.5 Microsoft YaHei, SimSun, Verdana, Geneva, sans-serif;}
+ol, ul {    
+    list-style: none; 
+}
+fieldset, img { border:0; vertical-align:top; }
+a { color:#000; text-decoration:none; cursor:pointer; outline: none;}
+a img, :link img, :visited img {   
+       border:0px; 
+       text-decoration: none;
+       vertical-align: middle;   
+}
+/*reset end*/
+
+/*样式根据需要更改 最好带上父元素#slide,提高优先级 此处的next和prev为调用插件时设置的按钮属性nextClass/prevClass的值*/
+#slide .prev{
+    left: -20px;
+}
+#slide .next{
+    right: -20px;
+}
+/*轮播导航图标样式，这里的ul.page的page为调用插件时设置的page属性的值,根据需要修改自己想要的样式效果*/
+#slide ul.page{
+    bottom: -20px;
+}
+/*此处page原理同上 ,轮播导航图标非当前图标样式,*/
+#slide ul.page li{
+    cursor: pointer;
+    color: #000;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    text-align: center;
+    margin: 0 5px;
+}
+/* 此处page原理同上 ,on为当前图片的图标样式*/
+#slide ul.page li.on{
+    color:#f6b61d;
+    background: #000;
+}

@@ -1,0 +1,315 @@
+@charset "utf-8";
+#user_picture{
+	width:120px;
+	height:120px;
+	border-radius:70px;
+}
+
+#home{
+	width: 960px;
+	height: 560px;
+}
+#home_right
+	{	width: 792px;
+		height: 520px;
+		background-color: #E2DFD7;
+		margin-top: 25px;
+		margin-right: 34px;
+		border-radius: 15px;
+	}
+#home_left{
+	width: 110px;
+	height: 166px;
+	margin-top: 74px;
+	margin-left:22px;
+	}
+/*左侧导航栏样式*/
+#home_left a{font-size: 16px;color: #3b372c;line-height: 38px;}
+#home_left ul li{width: 112px;height: 38px;padding-left:10px;border-radius:15px 0 0 15px;margin-bottom:2px;background: url(../img/home/nav bolder.jpg);}
+#home_left .navstyle {background-color: #E2DFD7;}
+
+
+
+/*个人信息*/
+#home_1{position: relative;left: 32px;top: 53px;}
+#home_1 span{font-size: 14px;}
+.text_1{width: 367px;height: 18px;box-shadow: 1px 2px 1px #aba79d;background-color: #f4f2ee;}
+.text_2{width:132px;height: 18px;box-shadow: 1px 2px 1px #aba79d;background-color: #f4f2ee;}
+.text{margin-bottom: 10px;}
+form textarea{width: 508px;height:103px ;margin-left: 73px;margin-top: -17px;box-shadow: 1px 2px 1px #aba79d;background-color: #f4f2ee;}
+
+/*#home_1 button{position:absolute;right:90px;width: 74px;bottom: -50px;height: 35px;background: #36363b;color: #f6b71f;font-size: 18px;margin-top:30px;}
+*/
+#home_1 button{position: absolute;top:400px;right: 120px;background: #36363b;color: #f6b71f;font-size: 18px;}
+/*头像*/
+#home_1 #touxiang{position:absolute;top: -20px;left: 600px;}
+#touxiang p{margin-left:25px;margin-top: 10px;}
+#touxiang a{color: #000000;}
+
+
+/*标签*/
+
+.label{
+	width: 500px;
+	padding-left:10px ;
+}
+.lab{
+	margin: 5px 10px;
+	display: inline-block;
+	width: 57px;
+	height:26px;
+	background:#eae6dc;
+	box-shadow: 1px 1px 2px #2B2B2B;
+	text-align: center;
+	line-height: 26px;
+}
+/*home2个人信息*/
+#home2_l{margin-top:42px ;}
+.title_2{
+	width: 579px;
+	height: 30px;
+	border-bottom: 2px solid #f3c14d;
+	color: #3b372c;
+	font-size: 18px;
+	font-weight:bolder;
+	margin-left:26px ;
+}
+#home2_baoming{
+	width: 566px;
+	height: 187px;
+	margin: 23px 0 20px 34px;
+}
+.home2_item{
+	width: 148px;
+	height: 179px;
+	box-shadow: 2px 2px 1px #aba79d;
+}
+#home2_baoming>img:first-child{
+	margin-right: 13px;
+	margin-top: 69px;
+}
+#home2_baoming>img:last-child{
+	margin-top: 69px;
+}
+.home2_item{
+	margin-right: 13px;
+	background-color: #fff;
+}
+/*我的评价*/
+
+
+
+
+
+/*头像和爱心值*/
+#home2_r{
+	width: 143px;
+	height: 218px;
+	position: absolute;
+	top: 230px;
+	left: 980px;
+}
+#home2_r p{
+	font-size: 12px;
+	font-weight: 300px;
+}
+#home2_xingming{
+	height:35px ;
+	line-height: 50px;
+	background: url(../img/home/爱心值.jpg) 40px 5px no-repeat;
+}
+
+#home2_xueyuan{padding: 10px 0s;}
+
+/*收藏*/
+
+.title_3{
+	width:736px;
+	height: 37px;
+	border-bottom: solid #f7ba2b 2px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.title_3 span{font-size: 17px; font-weight: 400px;line-height: 37px;padding-left: 10px;}
+.shoucang1{width: 150px;height: 185px;padding: 0 5px;}
+.home_3_top >img{margin-top:50px;}
+.shoucang1 img{box-shadow: 1px 1px 2px #36363B;}
+.home_3_top{height:190px;padding: 30px 30px 0px 30px;}
+
+.home_3_bo{height: 181px;padding: 30px 30px 0 30px;}
+.home_3_bo>img{margin-top:50px;}
+
+
+
+
+/*隐藏与显示*/
+
+/*#home2_l{display: none;}
+#home3{display: none;}*/
+/*我的消息*/
+.home_xiaoxi{width: 530px;height: 20px;margin-top: 7px;border-bottom: 1px solid #F3C14D;border-radius: 3px;box-shadow: 1px 1px 4px #5F5C53;padding-left: 10px;}
+#home_xiaoxi{height: 130px;width:530px;margin-left: 15px;margin-top: 20px;}
+
+/*切换收藏报名项目*/
+a{
+    text-decoration:none;
+}
+i,em{
+    font-style: normal;
+}
+img{
+    vertical-align: middle;
+    border:0;
+}
+li, ol, ul {
+    list-style: none;
+}
+.clear::after,.area::after{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+#sidebar .shoping-go:hover .shoping-shumu{
+    color: #c7000b;
+}
+.top-header #top-header{
+    width:980px;
+    margin:0 auto;
+}
+
+.flashSale_wrap {
+    /*display: none;*/
+    width: 960px;
+    height: 287px;
+    margin:0 auto;
+}
+.flashSale{
+    position: relative;
+    height: 299px;
+    overflow: hidden;
+    margin-top: 33px !important;
+}
+
+.tab-content{
+    margin-top:12px;
+}
+.flashSale .tab-content .tab-pane {
+    display: none;
+}
+.flashSale .tab-content .active {
+    display: block;
+}
+.flashSaleDeals {
+    width: 490px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.flashSaleDeals2 {
+    width: 630px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.flashSaleDeals ul li{
+    width:500px;
+    float:left;
+    height:180px;
+}
+.flashSaleDeals2 ul li{
+    width:630px;
+    float:left;
+    height:180px;
+}
+.xsq_deal_wrapper,.saleDeal{
+    position: relative;
+    display: block;
+    float: left;
+    width: 148px;
+    height: 180px;
+    background: #fff;
+    margin-left: 8px;
+}
+.dealCon{
+    position: relative;
+    width: 146px;
+    height: 129px;
+    overflow: hidden;
+}
+.dealImg{
+    width: 146px;
+    height: 129px;
+}
+
+.word1{
+    top: 48px;
+    font-size: 16px;
+}
+.word2{
+    top: 78px;
+    font-size: 16px;
+}
+.word3{
+    top: 145px;
+    font-size: 14px;
+}
+
+.stockWord {
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+}
+.title_new {
+    padding: 6px 10px 0;
+    font: 14px/20px "microsoft yahei";
+    color:#3b372c;
+}
+.title_new p {
+    width: 100px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+}
+
+.trigger {
+    width: 17px;
+    height: 43px;
+    background-image:url(../img/home/big_bg_img_v3.png);
+    position: absolute;
+    top: 74px;
+    z-index: 3;
+}
+.zuo{
+    background-position: -277px -440px;
+    left: 5px;
+}
+.zuo:hover{
+    background-position: -217px -440px;
+}
+.you{
+    background-position: -307px -440px;
+    right: 0;
+}
+.you:hover{
+    background-position: -247px -440px;
+}
+
+.zuo1{
+    background-position: -277px -440px;
+    left: 5px;
+}
+.zuo1:hover{
+    background-position: -217px -440px;
+}
+.you1{
+    background-position: -307px -440px;
+    right: 0;
+}
+.you1:hover{
+    background-position: -247px -440px;
+}
+

@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+#activity{
+	width: 960px;
+	min-height: 932px;
+	height: auto;
+}
+#activity_left{
+	width:761px;
+	padding-top: 50px;
+	float: left;
+	padding-left: 25px;
+}
+.activity_list{
+	width: 761px;
+	min-height: 800px;
+	height: auto;
+}
+
+.act{
+	width: 174px;
+	height: 230px;
+	box-shadow: 2px 2px 1px #aba79d;
+	margin-right:16px;
+	margin-bottom: 39px;
+	}
+
+.act h3{text-align: center;margin-bottom: 4px;margin-top: 5px;}
+.act h3 a{color: #3B372C;}
+.act p{margin-left: 10px;;color: #3B372C;}
+
+
+
+.tubiao{width:95px;height: 27px;float: right;margin-top: 7px;}
+.tubiao img{margin-left: 6px;}
+
+
+
+/*右侧*/
+#activity_right{width: 157px;height: 374px;	border-left: 1px solid #999ca5;	/*position: absolute;*/	float:right;margin-top: 50px;margin-right: 6px;}
+#activity_right img{margin-left: 40px;margin-top: 20px;}
+#activity_right p{text-align: center;}
+#activity_sousuo{width: 110px;height: 15px;border-radius:10px;border:3px solid #5f5c53;margin-left: 13px;padding-left: 10px;margin-top: 20px;margin-bottom: 20px;}
+
+#activity_name{margin: 6px 0 15px 0;font-size:17px;font-weight: 500;}
+#activity_right a{color: #3b372c;font-size: 13px;}
+
+#activity_right span{text-align: left;}
+#activity_right .t1{margin-left: 15px;margin-top: 20px;}
+#activity_right select{width: 80px;}
+#wrap{border: 1px solid #285E8E;}
+.clear{clear: both;}
+
+#return{position: fixed;bottom:30px;right: 100px;}

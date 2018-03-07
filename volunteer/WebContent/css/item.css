@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+.item_list{
+	width: 761px;
+	height: 760px;
+	padding-top: 50px;
+	padding-left: 23px;
+	margin-bottom: 30px;
+}
+/*左侧志愿项目*/
+.ite{width: 360px;height: 229px;box-shadow: 2px 2px 3px #aba79d;margin-right: 12px;	margin-bottom: 31px;position: relative; }
+#item{width: 960px;	height: auto;}
+#item_left{	width:761px;}
+.item_like{	position: absolute ;left: 320px;top: 200px;}
+
+/*右侧*/
+#item_right{width: 157px;height: 374px;	border-left: 1px solid #999ca5;	position: absolute;	right: 205px;top: 140px;}
+#item_right img{margin-left: 40px;margin-top: 20px;}
+#item_right p{text-align: center;}
+#activity_sousuo{width: 110px;height: 15px;border-radius:10px;border:3px solid #5f5c53;margin-left: 13px;padding-left: 10px;margin-top: 20px;margin-bottom: 20px;}
+#item_name{margin: 6px 0 15px 0;font-size:17px;font-weight: 500;}
+#item_right a{color: #3b372c;font-size: 13px;}
+
+#item_right span{text-align: left;}
+#item-right select{width: 50px;}
+#item_right .t1{margin-left: 15px;margin-top: 20px;}
+#item_right select{width: 80px;}
+
+
+/* ----- page ----- */
+.page{ text-align:center; clear:both; padding:20px 0px 10px 0px; color:#2b2b2b; height:22px; line-height:20px; color:#989898;}
+.page .prev{ display:inline-block; border:1px solid #ededed;text-align:left; vertical-align:middle; padding-left:22px; width:48px; height:22px; color:#bdbdbd;}
+.page .next{ text-align:left; display:inline-block; border:1px solid #ededed;vertical-align:middle; margin:0px 6px; background:url(../images/bg_page.gif) 0px center no-repeat; padding-left:12px; width:58px; height:22px; color:#bdbdbd;}
+.page .num a{ display:inline-block; vertical-align:middle;border:1px solid #ededed; color:#656565; text-align:center; margin-left:4px; width:28px; height:22px;}
+.page .num a:hover,.page .num a.on{font-weight:bold; background:#f9aa26;border:1px solid #000; }
+
+
+#wrap{border: 1px solid #F3C14D;}
+
+
+
+.ite figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	margin: -0.135em;
+	background: #000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.ite figure img {
+	/*position: relative;*/
+	display: block;
+	opacity: 1;
+}
+
+.ite figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ite figure figcaption::before,
+.ite figure figcaption::after {
+	pointer-events: none;
+}
+
+.ite figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ite figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+figure.mouse_hover figcaption {
+	top: 0px;
+	bottom: 0;
+	height: 50%;
+	text-align: left;
+}
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+figure.mouse_hover img {
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+
+figure.mouse_hover p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.mouse_hover h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.mouse_hover p {
+	color: #FFFFFF;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+
+figure.mouse_hover:hover p {
+	opacity: 1;
+}
+
+figure.mouse_hover:hover img{
+	opacity:0.7;
+}
+
+
+figure.mouse_hover:hover img,
+figure.mouse_hover:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.mouse_hover:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
+
+.clear{clear: both;}
+#return{position: fixed;bottom:30px;right: 100px;}
