@@ -1,4 +1,4 @@
-算是第一个写的正式的网站吧<br>
+算是第一个写的正式的网站吧(刚上大二时~)<br>
 jsp+servlet(java)实现<br>
 效果图：<br>
 <img src="volunteer/p1.png"><br>
